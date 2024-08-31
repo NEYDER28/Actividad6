@@ -1,0 +1,59 @@
+:root {
+    /*Background colors*/
+    --background-body1: #1e8449;
+    --background-body2: #1f618d;
+    --background-body3: #1a5276;
+    --background-body4: #154360;
+    --background-body5: #016c67;
+    --background-body6: #DAF7A6;
+    --background-body7: #e0dddd8b;
+
+    --background-navbar: #fff;
+
+    /*Fonts*/
+    --font-color-p: #191717;
+}
+
+/*Body*/
+
+.background {
+    background-color: var(--background-body7);
+}
+
+/*Nav*/
+.nav-item:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+/*Font*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main_title_card {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*icons*/
+
+.icon-bg_color {
+    color: var(--background-body1)
+}
+
+/*Carousel*/
+
+
+/*Cards*/
+
+.card-min-height {
+    min-height: 100%;
+    cursor: pointer;
+}
+
+/*Notes*/
+.max-h {
+    max-height: 350px;
+    overflow-y: scroll;
+}
